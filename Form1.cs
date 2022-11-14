@@ -403,7 +403,6 @@ namespace WindowsFormsNoteApp
             yellowsw.Write(Settings.Default.Yellow.ToString());
             yellowsw.Close();
         }
-        //            StreamWriter sw = new StreamWriter(@"FormatedText.txt"); C:\Users\ZekeR\Desktop\
         private void GreenPnlCpyFleBtn(object sender, EventArgs e)
         {
             StreamWriter greensw = new StreamWriter(@"" + GreenBtn.Text+".txt");
