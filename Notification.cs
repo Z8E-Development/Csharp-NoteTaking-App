@@ -23,9 +23,6 @@ namespace WindowsFormsNoteApp
             label1.Text = Form1.notebox;
             label2.Text = Form1.titlebox;
             this.TopMost = true;
-            //add a thing in the reminder panel that has a label = the current time when you click set so that you know when you set it
-            //for the test im going to run on the four hour thing inside this form load thing make to so that the textbox = datetime.now
-            //so when the form first loads it will tell me the time and when i wake up i can check the time it loaded
         }
 
         private void label1_Click(object sender, EventArgs e)
